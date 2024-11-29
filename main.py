@@ -29,8 +29,8 @@ SHOOTER_IMAGE = pygame.image.load("CANNON.png")
 SHOOTER_IMAGE = pygame.transform.scale(SHOOTER_IMAGE, (60, 60))
 BALL_IMAGES = [pygame.transform.scale(img, (HEX_RADIUS * 2, HEX_RADIUS * 2)) for img in BALL_IMAGES]
 BALL_IMAGES[7] = pygame.transform.scale(BALL_IMAGES[7], (HEX_RADIUS * 2 + 25, HEX_RADIUS * 2 + 25))
-BACKGROUND_MUSIC = "bgmusic.mp3"  
-POP_SOUND = "popcork.ogg" 
+BACKGROUND_MUSIC = "bgmusic.mp3"
+POP_SOUND = "popcork.ogg"
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Bubble Shooter")
